@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav{
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+height: 80px;
+background-color: rgb(143, 131, 131);
+color: rgb(14, 14, 57);
+}
+.logo{
+  margin-top: 18px;
+  font-size: 20px;
+  color: rgb(14, 14, 57);
+  font-family: 'Acme', sans-serif;
+}
+.menu ul{
+  list-style: none;
+margin-top: 15px;
+display: flex;
+}
+.menu ul li{
+  margin: 10px 20px;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: 'Acme', sans-serif;
+}
+.active {
+  text-decoration: underline;
+  color: rgb(246, 238, 238);
+}
+/* .image{
+  width: 100%;
+} */
+img{
+  /* background-size: cover; */
+  width: 100%;
+}
+.current-watch{
+  padding:10px 20px;
+  text-align: right;
+}
+.current-watch h3{
+  font-size: 25px;
+  color :rgb(168, 134, 124);
+  /* color: rgb(14, 14, 57); */
+}
+.btn{
+  margin: 10px;
+  width: 250px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 12px;
+  background-color: rgb(14, 14, 57);
+  border-radius: 8px;
+}
+.container{
+  margin: 20px 0 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.left{
+  /* margin: 30px; */
+  width: 25%;
+  box-shadow: 10px 10px 20px gray;
+border-radius: 10px;
+}
+.left img{
+  /* margi */
+  width: 100%;
+  border-radius: 10px;
+}
+.right{
+  /* margin: 30px; */
+  border-radius: 10px;
+  width: 68%;
+  box-shadow: 10px 10px 20px gray;
+  }
+  .right img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .cards-container{
+     width: 98%;
+     margin: 20px;
+     display: flex;
+     justify-content: space-evenly;
+  }
+  .cards-container .card{
+    width: 20%;
+    
+  }
+  .card{
+    box-shadow: 5px 5px 20px silver;
+    border-radius: 10px;
+  }
+  .card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .card .card-info{
+    padding: 10px 20px;
+  }
+  .card-info button{
+    margin:10px 0;
+    width: 45%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-left:30%;
+    background-color: rgb(143, 131, 131);
+    color: rgb(14, 14, 57);
+  }
+  .card-info button:hover{
+    transition: all 1s;
+    ;
+    background-color: rgb(14, 14, 57);
+    color: rgb(143, 131, 131);
+  }
+  .card-info .title{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(14, 14, 57);
+  }
+.footer{
+  margin-top: 40px;
+  padding-top: 45px;
+  height: 60px;
+  text-align: center;
+  background-color: rgb(143, 131, 131);
+}
+.footer p{
+  font-family: 'Acme', sans-serif;
+  color: rgb(14, 14, 57);
+  font-size: 22px;
+}
