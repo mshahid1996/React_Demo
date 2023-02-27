@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: mshahidreactdemo 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mshahidreactdemo
+  template:
+    metadata:
+      labels:
+        app: mshahidreactdemo 
+    spec:
+      containers:
+        - name: mshahidreactdemo 
+          image: reactdemo1.azurecr.io/mshahidreactdemo
+          ports:
+          - containerPort: 80
